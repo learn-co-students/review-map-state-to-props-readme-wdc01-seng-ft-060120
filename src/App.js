@@ -38,4 +38,8 @@ const mapStateToProps = (state) => {
   return { items: state.items }
 }
 
+// const mapStateToProps = (state) => {
+//   return { orangePeel: ['a', 'b', 'c'] };
+// };
+
 export default connect(mapStateToProps)(App);
